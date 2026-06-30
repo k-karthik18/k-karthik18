@@ -1,10 +1,14 @@
 <h1 align="center">Hi there, I'm Karthik 👋</h1>
 
-<h3 align="center">AI/ML Enthusiast · Web Developer · DevOps Engineer</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&weight=700&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=AI%2FML+Enthusiast;Web+Developer;DevOps+Engineer"
+    alt="Typing SVG" />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/karthik-kosuri-0764702b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:kosurikarthik07@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://karthik-portfolio.netlify.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=k-karthik18&style=for-the-badge&color=2563EB" alt="Profile Views" />
 </p>
 
@@ -181,8 +185,8 @@ An end-to-end ML pipeline that predicts rainfall and analyzes meteorological tre
 ### 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=k-karthik18&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-karthik18&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=k-karthik18&show_icons=true&count_private=true&include_all_commits=true&hide=stars,prs,issues,contribs&hide_rank=true&custom_title=Total%20Contributions&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=k-karthik18&layout=compact&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
 </p>
 
 <p align="center">
