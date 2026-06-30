@@ -1,6 +1,6 @@
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Karthik+%F0%9F%91%8B;AI%2FML+Enthusiast;Full-Stack+Developer;CSE+(AIML)+%40+VIT-AP" alt="Typing SVG" />
-</p>
+<h1 align="center">Hi there, I'm Karthik 👋</h1>
+
+<h3 align="center">AI/ML Enthusiast · Web Developer · DevOps Engineer</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/karthik-kosuri-0764702b7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -15,54 +15,52 @@
 ```js
 const karthik = {
   name        : "Karthik Kosuri",
-  role        : ["AI/ML Enthusiast", "Full Stack Developer"],
+  role        : ["AI/ML Enthusiast", "Web Developer", "DevOps Engineer"],
   education   : "B.Tech CSE (AI & ML) @ VIT-AP University",
   shipped     : ["Speech Emotion Recognition", "PACMAN-RL", "Weather Prediction ML"],
-  interests   : ["Machine Learning", "AI Tools", "Web Development"],
+  interests   : ["Machine Learning", "AI Tools", "Web Development", "DevOps"],
 };
 ```
 
-🎯 **Mission:** ["Building practical tools and systems that solve everyday problems."]
+🎯 **Mission:** Building practical tools and systems that solve everyday problems.
 
 ---
 
-
 ### 🏆 Featured Project — AI Study Assistant
 
-**🤖 AI-Powered Study Companion** · *[in active development]*
+**🤖 AI-Powered Study Companion** · *in active development*
 
-An AI assistant built to help students study more effectively — [add 1-2 lines on what it actually does: e.g. summarizes notes, generates quizzes, answers doubts, etc.]
-
-**What makes it interesting:**
-- 🗣️ [Key feature 1 — e.g. natural language Q&A over study material]
-- 🧠 [Key feature 2 — e.g. auto-generated quizzes/flashcards]
-- 🌐 [Key feature 3 — e.g. progress tracking dashboard]
+A full-stack study assistant built with a JavaScript frontend and a Python backend service, designed to help students study more effectively.
 
 **Stack:**
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/[Add%20your%20AI%20API]-000000?style=flat-square" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 </p>
+
+[Repo →](https://github.com/k-karthik18/AI-Study-Assistant)
 
 ---
 
 ### 🎙️ Featured Project — Speech Emotion Recognition
 
-**🧠 ML Model for Emotion Detection from Audio**
+**🧠 Ensemble Deep Learning for Emotion Detection from Audio**
 
-Detects human emotion (happy, sad, angry, neutral, etc.) from speech audio using trained machine learning models on extracted audio features.
+An end-to-end deep learning pipeline that classifies human emotion from raw audio waveforms, using an averaging ensemble of a 1D CNN and a CNN+BiLSTM — trained across 4 major datasets (RAVDESS, TESS, CREMA-D, SAVEE) totaling ~54,800 augmented samples.
 
 **Key engineering highlights:**
-- 🎵 [e.g. Feature extraction using MFCCs / spectrograms]
-- 📊 [e.g. Trained and compared multiple classifiers — SVM, Random Forest, CNN]
-- 🎯 [e.g. Achieved X% accuracy on the test set]
+- 🎵 Feature extraction via `librosa` — Zero-Crossing Rate, RMSE, 20 MFCCs, and 12 Chroma features
+- 🔀 Gaussian noise + pitch-shift augmentation to reduce overfitting
+- 📊 Ensemble of 1D CNN + CNN-BiLSTM achieved **92.89% accuracy**, **92.91% weighted F1**, and **99.46% AUC-ROC** — outperforming either model alone
+- 🔍 Integrated **LIME** for explainability, visualizing which acoustic features drive each prediction
 
 **Stack:**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
 </p>
@@ -73,19 +71,22 @@ Detects human emotion (happy, sad, angry, neutral, etc.) from speech audio using
 
 ### 🕹️ Featured Project — PACMAN-RL
 
-**🧠 Reinforcement Learning Agent**
+**🧠 Reinforcement Learning Platform for Pac-Man**
 
-A reinforcement learning agent trained to play Pac-Man — [add 1-2 lines: e.g. what algorithm you used, what challenges you solved].
+A full-stack RL platform for the Berkeley Pac-Man AI Challenge, with a FastAPI backend and a React/Canvas frontend that streams the agent's internal state live.
 
 **Key engineering highlights:**
-- 🐛 [e.g. a specific bug you fixed or tradeoff you solved]
-- 📉 [e.g. reward shaping / decay schedule details]
-- 🎯 [e.g. win rate or score improvement, if you tracked one]
+- 🤖 Implemented multiple agents from scratch: Tabular Q-Learning, Approximate Q-Learning (linear function approximation), and Approximate SARSA
+- 📉 Diagnosed the curse-of-dimensionality failure in tabular Q-learning and solved it with feature-based approximation (`w · f(s,a)`) and TD-error weight updates
+- 📡 Real-time visualization of live Q-values, weights, and TD-errors in a dashboard
+- 🧪 Built an automated benchmarking script to grade agent win rates across 10+ layouts
 
 **Stack:**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
 </p>
 
 [Repo →](https://github.com/k-karthik18/PACMAN-RL)
@@ -94,19 +95,20 @@ A reinforcement learning agent trained to play Pac-Man — [add 1-2 lines: e.g. 
 
 ### 🌦️ Featured Project — Weather Prediction using ML
 
-**📊 Predictive Modeling on Weather Data**
+**📊 Ensemble Machine Learning for Rainfall Prediction**
 
-Predicts weather patterns using multiple trained ML models, comparing performance across approaches.
+An end-to-end ML pipeline that predicts rainfall and analyzes meteorological trends across 10,000+ historical weather records.
 
 **Key engineering highlights:**
-- 📈 [e.g. dataset used, features engineered]
-- 🧪 [e.g. models compared — Linear Regression, Decision Trees, etc.]
-- 🎯 [e.g. best model + accuracy/RMSE achieved]
+- 🧪 Built and compared four models — Decision Tree, Random Forest, SVM, and Gradient Boosting
+- 📈 Ensemble modeling improved prediction accuracy by **12%** over individual base models
+- 📊 Visualized temperature trends, rainfall distribution, and model performance comparisons
 
 **Stack:**
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" />
 </p>
@@ -123,7 +125,6 @@ Predicts weather patterns using multiple trained ML models, comparing performanc
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 </p>
@@ -142,9 +143,9 @@ Predicts weather patterns using multiple trained ML models, comparing performanc
 **🤖 AI Tools**
 
 <p>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-  <img src="https://img.shields.io/badge/ChatGPT-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
   <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
 </p>
 
@@ -154,16 +155,23 @@ Predicts weather patterns using multiple trained ML models, comparing performanc
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 </p>
 
-**☁️ Cloud & DevOps**
+**☁️ Cloud & Hosting**
 
 <p>
   <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
   <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" />
-  <img src="https://img.shields.io/badge/VPS%20(KVM)-FF6600?style=flat-square&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/VPS%20(KVM)-FF6600?style=flat-square&logo=serverfault&logoColor=white" />
+</p>
+
+**🧰 Tools**
+
+<p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 </p>
@@ -185,8 +193,25 @@ Predicts weather patterns using multiple trained ML models, comparing performanc
 
 ### 📬 Connect with Me
 
+<table align="center">
+  <tr>
+    <td align="center" width="200">
+      <a href="mailto:kosurikarthik07@gmail.com">
+        <img src="https://img.icons8.com/fluency/48/gmail-new.png" width="40" /><br/>
+        <b>Email</b><br/>
+        <sub>kosurikarthik07@gmail.com</sub>
+      </a>
+    </td>
+    <td align="center" width="200">
+      <a href="https://www.linkedin.com/in/karthik-kosuri-0764702b7/">
+        <img src="https://img.icons8.com/fluency/48/linkedin.png" width="40" /><br/>
+        <b>LinkedIn</b><br/>
+        <sub>Karthik Kosuri</sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
 <p align="center">
-  <a href="mailto:kosurikarthik07@gmail.com"><img src="https://img.shields.io/badge/Email-kosurikarthik07%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <br/>
-  <a href="https://www.linkedin.com/in/karthik-kosuri-0764702b7/"><img src="https://img.shields.io/badge/LinkedIn-Karthik%20Kosuri-blue?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <i>💬 Always open to collaborating on AI/ML and web projects — feel free to reach out!</i>
 </p>
