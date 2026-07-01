@@ -221,17 +221,7 @@ An end-to-end ML pipeline that predicts rainfall and analyzes meteorological tre
 
 ### 📊 GitHub Statistics
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=k-karthik18&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true"
-    height="170"
-  />
 
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=k-karthik18&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"
-    height="170"
-  />
-</p>
 
 <p align="center">
   <img
