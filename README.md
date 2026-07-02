@@ -251,7 +251,7 @@ An end-to-end ML pipeline that predicts rainfall and analyzes meteorological tre
       </a>
     </td>
     <td align="center" width="200">
-      <a href="https://www.linkedin.com/in/karthik-kosuri-0764702b7/">
+      <a href="https://www.linkedin.com/in/karthik-kosuri">
         <img src="https://img.icons8.com/fluency/48/linkedin.png" width="40" /><br/>
         <b>LinkedIn</b><br/>
         <sub>Karthik Kosuri</sub>
