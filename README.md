@@ -27,6 +27,7 @@ const karthik = {
   ],
 
   education: "B.Tech CSE (AI & ML) @ VIT-AP University",
+  CGPA: 9.01
 
   currentlyBuilding: [
     "AI Study Assistant",
