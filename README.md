@@ -37,7 +37,8 @@ const karthik = {
   shipped: [
     "Speech Emotion Recognition",
     "PACMAN-RL",
-    "Weather Prediction ML"
+    "Weather Prediction ML",
+    "VoxAssist"
   ],
 
   interests: [
